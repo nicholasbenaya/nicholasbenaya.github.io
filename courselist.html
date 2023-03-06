@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/courselist.css" />
+    <!-- jquery -->
+    <link
+      rel="stylesheet"
+      href="//code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css"
+    />
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+    <!-- Font Awesome -->
+    <script
+      src="https://kit.fontawesome.com/d151725597.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Course List</title>
+  </head>
+  <body>
+    <!-- Navbar Start  -->
+    <section class="header">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow">
+        <div class="container-fluid fs-4">
+          <a class="navbar-brand fs-4" href="index.html"
+            >ABC Learning Center
+            <i class="fa fa-graduation-cap" aria-hidden="true"></i
+          ></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item mx-2 my-2">
+                <a class="nav-link" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item dropdown mx-2 my-2">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdownMenuLink"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Courses
+                </a>
+                <ul
+                  class="dropdown-menu"
+                  aria-labelledby="navbarDropdownMenuLink"
+                >
+                  <li>
+                    <a class="dropdown-item" href="htmlschedule.html"
+                      >Learn HTML</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="javaschedule.html"
+                      >Learn Java</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="netschedule.html"
+                      >Learn .NET</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="officeschedule.html"
+                      >Learn Microsoft Office</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="courselist.html"
+                      >Course List</a
+                    >
+                  </li>
+                </ul>
+              </li>
+              <li class="nav-item mx-2 my-2">
+                <a class="nav-link" href="about.html">About</a>
+              </li>
+              <li class="nav-item mx-2 my-2">
+                <a class="nav-link" href="privacy.html">Privacy</a>
+              </li>
+              <li class="nav-item mx-2 my-2">
+                <a class="nav-link" href="sitemap.html">Site Map</a>
+              </li>
+              <li class="nav-item mx-2 my-2">
+                <a class="nav-link" href="contactus.html">Contact Us</a>
+              </li>
+            </ul>
+            <a
+              class="btn btn-outline-light mx-2 my-2 ms-auto"
+              href="leadregistration.html"
+              role="button"
+              >Sign In</a
+            >
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Navbar Ends  -->
+
+    <!-- Content Start -->
+    <section class="content">
+      <div class="container-fluid">
+        <div class="row my-3">
+          <div class="col text-center">
+            <h1 class="fs-1 fw-bold">COURSES</h1>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+            <div id="accordion">
+              <!-- Learn HTML -->
+              <h3>Learn HTML</h3>
+              <div class="container-fluid">
+                <div class="row my-2 mx-1">
+                  <div class="col fs-1 fw-bold">
+                    <h1>Learn HTML</h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col border border-4 border-dark">
+                    <div class="row">
+                      <div class="col fs-3 fw-bolder">
+                        <h2>Schedule</h2>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <p class="fs-4">Starts: DD-MM-YYYY</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <p class="fs-4">Ends: DD-MM-YYYY</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <a
+                            class="btn btn-outline-dark mb-3"
+                            href="htmlpreview.html"
+                            role="button"
+                            >Course Preview
+                            <i
+                              class="fa fa-arrow-circle-o-right"
+                              aria-hidden="true"
+                            ></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Learn Java -->
+              <h3>Learn Java</h3>
+              <div class="container-fluid">
+                <div class="row my-2 mx-1">
+                  <div class="col fs-1 fw-bold">
+                    <h1>Learn Java</h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col border border-4 border-dark">
+                    <div class="row">
+                      <div class="col fs-3 fw-bolder">
+                        <h2>Schedule</h2>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <p class="fs-4">Starts: DD-MM-YYYY</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <p class="fs-4">Ends: DD-MM-YYYY</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <a
+                            class="btn btn-outline-dark mb-3"
+                            href="javapreview.html"
+                            role="button"
+                            >Course Preview
+                            <i
+                              class="fa fa-arrow-circle-o-right"
+                              aria-hidden="true"
+                            ></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Learn .NET -->
+              <h3>Learn .NET</h3>
+              <div class="container-fluid">
+                <div class="row my-2 mx-1">
+                  <div class="col fs-1 fw-bold">
+                    <h1>Learn .NET</h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col border border-4 border-dark">
+                    <div class="row">
+                      <div class="col fs-3 fw-bolder">
+                        <h2>Schedule</h2>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <p class="fs-4">Starts: DD-MM-YYYY</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <p class="fs-4">Ends: DD-MM-YYYY</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <a
+                            class="btn btn-outline-dark mb-3"
+                            href="netpreview.html"
+                            role="button"
+                            >Course Preview
+                            <i
+                              class="fa fa-arrow-circle-o-right"
+                              aria-hidden="true"
+                            ></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- Learn Microsoft Office -->
+              <h3>Learn Microsoft Office</h3>
+              <div class="container-fluid">
+                <div class="row my-2 mx-1">
+                  <div class="col fs-1 fw-bold">
+                    <h1>Learn Microsoft Office</h1>
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="col border border-4 border-dark">
+                    <div class="row">
+                      <div class="col fs-3 fw-bolder">
+                        <h2>Schedule</h2>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <p class="fs-4">Starts: DD-MM-YYYY</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <p class="fs-4">Ends: DD-MM-YYYY</p>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col">
+                          <a
+                            class="btn btn-outline-dark mb-3"
+                            href="officepreview.html"
+                            role="button"
+                            >Course Preview
+                            <i
+                              class="fa fa-arrow-circle-o-right"
+                              aria-hidden="true"
+                            ></i
+                          ></a>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    </section>
+    <!-- Content Ends -->
+
+    <!-- Footer Start -->
+    <section class="footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-1"></div>
+          <div class="col-10">
+            <p class="copyright">
+              <strong>&#169; Copyright</strong> Lorem ipsum dolor sit amet
+              consectetur, adipisicing elit. Commodi tempora, porro saepe omnis
+              illum tenetur asperiores modi culpa et! A ratione repudiandae
+              deserunt animi dicta, natus optio mollitia aliquid illum. Sequi at
+              ipsum repellendus nihil minima, dolore ut non dignissimos, omnis
+              vitae sed accusamus unde rerum repellat quibusdam natus eius.
+              Aspernatur fugiat libero in omnis provident laboriosam iste illo
+              impedit. Asperiores et ad labore, aliquid dolores nihil officiis
+              cum nobis unde libero nisi. Repellendus, numquam vel? Quam,
+              ratione. Repellat quod unde tempora recusandae numquam quisquam
+              officiis fugit cupiditate molestiae sequi! Aliquid inventore
+              voluptatibus corporis officia ratione voluptates quo atque quidem
+              sit repudiandae iste id at, non molestias laudantium, provident
+              dicta mollitia cumque. Consequuntur minus mollitia facere! Porro
+              veritatis eaque pariatur.
+            </p>
+          </div>
+          <div class="col-1"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer ENd -->
+
+    <!-- Bootstrap Js -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Scripting -->
+    <script>
+      $(function () {
+        $("#accordion").accordion();
+        collapsible: true;
+        heightStyle: "content";
+      });
+
+      $(function () {
+        $("#tabs").tabs();
+      });
+    </script>
+  </body>
+</html>
